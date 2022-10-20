@@ -36,7 +36,7 @@ section#login {
 
     background-color: white;
     width: 252px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
 
     transition: width 0.3s, height 0.3s;
@@ -44,7 +44,7 @@ section#login {
 }
 
 section#login > div#imagem {
-    background: #5f2c82 url(../imagens/building-glass.jpg) no-repeat;
+    background: #029CDC url(../imagens/building-glass.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -61,5 +61,57 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #029CDC;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #0076a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #029CDC;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #0076a8;
+    border: 1px solid #029CDC;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #74c7eb;
+    color: white;
+}
+
+form > a.botao > span {
     font-size: 0.8em;
 }
