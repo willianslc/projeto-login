@@ -4,7 +4,7 @@
     Paleta de cores
     verde: #49a09d
     lilás: #5f2c82
-    azul-claro: #2a667e
+    azul-claro: #2a667e #1a5b75
 */
 
 * {
@@ -15,7 +15,7 @@
 }
 
 body, html {
-    background-color: #2a667e;
+    background-color: #029CDC;
     height: 100vh;
     width: 100vw;
 }
@@ -27,7 +27,7 @@ main {
 }
 
 section#login {
-    /*determina que a section fique centralizada no meio da tela*/
+    /*As 5 linhas de código abaixo determina que a section fique centralizada no meio da tela*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +38,9 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
